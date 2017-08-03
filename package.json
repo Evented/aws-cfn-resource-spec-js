@@ -1,5 +1,5 @@
 {
-  "name": "aws-cfn-resource-spec",
+  "name": "@evented/aws-cfn-resource-spec",
   "version": "0.0.0",
   "description": "AWS CloudFormation Resource Specification",
   "main": "lib/index.js",
@@ -33,5 +33,20 @@
         }
       ]
     ]
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evented/aws-cfn-resource-spec-js.git"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation"
+  ],
+  "bugs": {
+    "url": "https://github.com/Evented/aws-cfn-resource-spec-js/issues"
+  },
+  "homepage": "https://github.com/Evented/aws-cfn-resource-spec-js#readme"
 }
