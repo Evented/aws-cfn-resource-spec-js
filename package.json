@@ -1,6 +1,6 @@
 {
   "name": "@evented/aws-cfn-resource-spec",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "AWS CloudFormation Resource Specification",
   "main": "lib/index.js",
   "author": "Barrett K. Harber <barrett.harber@gmail.com>",
