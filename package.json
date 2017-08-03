@@ -1,0 +1,37 @@
+{
+  "name": "aws-cfn-resource-spec",
+  "version": "0.0.0",
+  "description": "AWS CloudFormation Resource Specification",
+  "main": "lib/index.js",
+  "author": "Barrett K. Harber <barrett.harber@gmail.com>",
+  "license": "Unlicense",
+  "scripts": {
+    "prepublish": "babel-node ./scripts/assets.js",
+    "prepare": "babel src --out-dir lib --compact true --minified --no-comments"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-dynamic-import-node": "^1.0.2",
+    "babel-plugin-inline-json-import": "^0.2.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "babel": {
+    "plugins": [
+      "dynamic-import-node",
+      "inline-json-import"
+    ],
+    "presets": [
+      "stage-2",
+      [
+        "env",
+        {
+          "targets": {
+            "node": "6.10"
+          }
+        }
+      ]
+    ]
+  }
+}
