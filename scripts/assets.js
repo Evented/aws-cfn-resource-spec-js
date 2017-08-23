@@ -2,7 +2,7 @@ import fs from 'fs';
 import https from 'https';
 import zlib from 'zlib';
 
-const url = 'https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json';
+const url = 'https://dnwj8swjjbsbt.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json';
 
 if (!fs.existsSync('./build')) {
 	fs.mkdirSync('./build')
